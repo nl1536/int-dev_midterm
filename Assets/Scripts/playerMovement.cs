@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class playerMovement : MonoBehaviour
 {
-	private float tug;
+	public float tug;
 	private float rotateSpeed;
 	public Transform dogPos;
 	
@@ -13,7 +13,7 @@ public class playerMovement : MonoBehaviour
 	void Start ()
 	{
 
-		tug = 2f;
+		tug = 5f;
 		rotateSpeed = 2f;
 
 	}
