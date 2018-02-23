@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class gameState : MonoBehaviour {
+public class gameStateWin : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -15,11 +15,11 @@ public class gameState : MonoBehaviour {
 		
 	}
 
-	private void OnCollisionExit(Collision lose)
+	private void OnCollisionEnter(Collision win)
 	{
-		if (lose.gameObject.name == "Cliff")
+		if (win.gameObject.name == "DogHouse")
 		{
-			GameObject.FindWithTag("UIText").GetComponent<Text>().text = "you lose";
+			GameObject.FindWithTag("UIText").GetComponent<Text>().text = "you win";
 		}
 	}
 }
