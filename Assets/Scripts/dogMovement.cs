@@ -10,14 +10,14 @@ public float dogPull;
 	void Start ()
 	{
 
-		dogPull = 2f;
+		dogPull = 20f;
 
 	}
 	
 	// Update is called once per frame
 	void Update () {
 	
-	GetComponent<Rigidbody>().AddRelativeForce(0f,0f, dogPull, ForceMode.VelocityChange);
+	GetComponent<Rigidbody>().AddRelativeForce(0f,0f, dogPull, ForceMode.Force);
 		
 	}
 }

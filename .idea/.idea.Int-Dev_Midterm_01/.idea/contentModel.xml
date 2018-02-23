@@ -15,6 +15,8 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="dogMovement.cs" t="Include" />
+          <e p="gameState.cs" t="Include" />
+          <e p="magicCircle.cs" t="Include" />
           <e p="playerMovement.cs" t="Include" />
         </e>
       </e>
