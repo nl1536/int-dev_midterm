@@ -20,7 +20,6 @@ public class magicCircle : MonoBehaviour {
 		{
 			GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionY | 
 			                                        RigidbodyConstraints.FreezeRotationX |
-			                                        RigidbodyConstraints.FreezeRotationY |
 			                                        RigidbodyConstraints.FreezeRotationZ;
 		}
 	}

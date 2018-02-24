@@ -16,7 +16,7 @@ public class playerMovement : MonoBehaviour
 	void Start ()
 	{
 
-		tug = 250f;
+		tug = 280f;
 		rotateSpeed = 2f;
 
 	}
