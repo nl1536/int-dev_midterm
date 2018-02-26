@@ -13,7 +13,7 @@ public class dogMovement : MonoBehaviour {
 	void Start ()
 	{
 
-		dogPull = 30f;
+		dogPull = 20f;
 
 	}
 	
@@ -24,8 +24,8 @@ public class dogMovement : MonoBehaviour {
 		dogTorque = Random.Range(-180, 180);
 		dogRotation = new Vector3(0f, dogTorque, 0f);
 
-		if (GetComponent<Transform>().position.z - playerPos.position.z < 15 ||
-		    GetComponent<Transform>().position.z + playerPos.position.z < 15)
+		if (GetComponent<Transform>().position.z - playerPos.position.z < 5f ||
+		    GetComponent<Transform>().position.z + playerPos.position.z < 5f)
 		{
 			GetComponent<Rigidbody>().AddRelativeForce(0f,0f, dogPull, ForceMode.Force);
 			GetComponent<Rigidbody>().AddRelativeTorque(dogRotation, ForceMode.Force);

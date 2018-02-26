@@ -9,6 +9,9 @@ public class playerMovement : MonoBehaviour
 	public Transform leashPos1;
 	public Transform leashPos2;
 	public Transform leashPos3;
+	public Transform leashPos4;
+	public Transform leashPos5;
+	public Transform leashPos6;
 	public Transform dogPos;
 	
 
@@ -16,7 +19,7 @@ public class playerMovement : MonoBehaviour
 	void Start ()
 	{
 
-		tug = 280f;
+		tug = 500f;
 		rotateSpeed = 2f;
 
 	}
@@ -64,6 +67,9 @@ public class playerMovement : MonoBehaviour
 		GetComponent<LineRenderer>().SetPosition(1, new Vector3(leashPos1.position.x, leashPos1.position.y, leashPos1.position.z));
 		GetComponent<LineRenderer>().SetPosition(2, new Vector3(leashPos2.position.x, leashPos2.position.y, leashPos2.position.z));
 		GetComponent<LineRenderer>().SetPosition(3, new Vector3(leashPos3.position.x, leashPos3.position.y, leashPos3.position.z));
-		GetComponent<LineRenderer>().SetPosition(4, new Vector3(dogPos.position.x, dogPos.position.y, dogPos.position.z));
+		GetComponent<LineRenderer>().SetPosition(4, new Vector3(leashPos4.position.x, leashPos4.position.y, leashPos4.position.z));
+		GetComponent<LineRenderer>().SetPosition(5, new Vector3(leashPos5.position.x, leashPos5.position.y, leashPos5.position.z));
+		GetComponent<LineRenderer>().SetPosition(6, new Vector3(leashPos6.position.x, leashPos6.position.y, leashPos6.position.z));
+		GetComponent<LineRenderer>().SetPosition(7, new Vector3(dogPos.position.x, dogPos.position.y, dogPos.position.z));
 	}
 }
