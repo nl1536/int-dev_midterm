@@ -15,7 +15,7 @@ public class gameStateWin : MonoBehaviour {
 		
 	}
 
-	private void OnCollisionEnter(Collision win)
+	private void OnTriggerEnter(Collider win)
 	{
 		if (win.gameObject.name == "DogHouse")
 		{

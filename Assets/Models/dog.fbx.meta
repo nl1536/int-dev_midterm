@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 6b09e0688676ae8498a5eb6066b41937
-timeCreated: 1518709968
+guid: 1a7ed9fe6b0b92d43a7dc4acdc6bbd4d
+timeCreated: 1520224228
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -8,9 +8,11 @@ ModelImporter:
     100000: //RootNode
     400000: //RootNode
     2100000: lambert1
+    2100002: lambert2
+    2100004: lambert3
     2300000: //RootNode
     3300000: //RootNode
-    4300000: group_pasted__pCube1
+    4300000: polySurface6
     9500000: //RootNode
   externalObjects: {}
   materials:
