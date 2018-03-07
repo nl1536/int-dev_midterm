@@ -21,6 +21,7 @@
           <e p="magicCircle.cs" t="Include" />
           <e p="particleTrigger.cs" t="Include" />
           <e p="playerMovement.cs" t="Include" />
+          <e p="startPlay.cs" t="Include" />
         </e>
       </e>
       <e p="Int-Dev_Midterm_01.sln" t="IncludeFlat" />
