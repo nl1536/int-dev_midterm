@@ -33,6 +33,7 @@ ModelImporter:
     100050: pSphere1
     100052: //RootNode
     100054: group3_pasted__pCube1
+    100056: group2_pasted__pCube1
     400000: back
     400002: group
     400004: group1
@@ -61,10 +62,14 @@ ModelImporter:
     400050: pSphere1
     400052: //RootNode
     400054: group3_pasted__pCube1
+    400056: group2_pasted__pCube1
     2000000: back
     2100000: lambert3
     2100002: lambert2
     2100004: lambert1
+    2100006: lambert4
+    2100008: lambert6
+    2100010: lambert5
     2300000: pasted__pCube1
     2300002: pasted__pCube1 1
     2300004: pasted__pCube1 10
@@ -80,6 +85,7 @@ ModelImporter:
     2300024: pCylinder1
     2300026: pSphere1
     2300028: group3_pasted__pCube1
+    2300030: group2_pasted__pCube1
     3300000: pasted__pCube1
     3300002: pasted__pCube1 1
     3300004: pasted__pCube1 10
@@ -95,6 +101,7 @@ ModelImporter:
     3300024: pCylinder1
     3300026: pSphere1
     3300028: group3_pasted__pCube1
+    3300030: group2_pasted__pCube1
     4300000: pCylinder1
     4300002: pSphere1
     4300004: pCube1
@@ -110,6 +117,7 @@ ModelImporter:
     4300024: pasted__pCube1
     4300026: pasted__pCube1
     4300028: group3_pasted__pCube1
+    4300030: group2_pasted__pCube1
     9500000: //RootNode
   externalObjects: {}
   materials:

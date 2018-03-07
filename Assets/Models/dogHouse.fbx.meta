@@ -142,6 +142,7 @@ ModelImporter:
     100268: pasted__pasted__transform33
     100270: pasted__transform33
     100272: polySurface73
+    100274: polySurface524
     400000: //RootNode
     400002: group33
     400004: group34
@@ -279,11 +280,16 @@ ModelImporter:
     400268: pasted__pasted__transform33
     400270: pasted__transform33
     400272: polySurface73
+    400274: polySurface524
     2100000: lambert1
     2100002: lambert2
+    2100004: lambert3
     2300000: polySurface73
+    2300002: polySurface524
     3300000: polySurface73
+    3300002: polySurface524
     4300000: polySurface73
+    4300002: polySurface524
     9500000: //RootNode
   externalObjects: {}
   materials:

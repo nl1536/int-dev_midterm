@@ -16,7 +16,7 @@ public class magicCircle : MonoBehaviour {
 	
 	void OnCollisionStay(Collision ground)
 	{
-		if (ground.gameObject.name == "Cliff")
+		if (ground.gameObject.name == "cliff")
 		{
 			GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionY | 
 			                                        RigidbodyConstraints.FreezeRotationX |
@@ -26,7 +26,7 @@ public class magicCircle : MonoBehaviour {
 
 	void OnCollisionExit(Collision fall)
 	{
-		if (fall.gameObject.name == "Cliff")
+		if (fall.gameObject.name == "cliff")
 		{
 			GetComponent<Rigidbody>().constraints &= ~RigidbodyConstraints.FreezePositionY;
 		}

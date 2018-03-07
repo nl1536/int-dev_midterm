@@ -30,7 +30,7 @@ public class gameState : MonoBehaviour
 
 	private void OnCollisionExit(Collision lose)
 	{
-		if (lose.gameObject.name == "Cliff")
+		if (lose.gameObject.name == "cliff")
 		{
 			GameObject.FindWithTag("UIText").GetComponent<Text>().text = "you lose";
 			loseGame = true;

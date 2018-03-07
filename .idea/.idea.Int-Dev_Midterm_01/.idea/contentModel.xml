@@ -14,10 +14,12 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="cameraBehavior.cs" t="Include" />
           <e p="dogMovement.cs" t="Include" />
           <e p="gameState.cs" t="Include" />
           <e p="gameStateWin.cs" t="Include" />
           <e p="magicCircle.cs" t="Include" />
+          <e p="particleTrigger.cs" t="Include" />
           <e p="playerMovement.cs" t="Include" />
         </e>
       </e>
