@@ -29,6 +29,9 @@ public class magicCircle : MonoBehaviour {
 		if (fall.gameObject.name == "cliff")
 		{
 			GetComponent<Rigidbody>().constraints &= ~RigidbodyConstraints.FreezePositionY;
+			GetComponent<Rigidbody>().mass = 5f;
+			GetComponent<Rigidbody>().AddRelativeForce(0f,2500f,2500f, ForceMode.Force);
+			
 		}
 	}
 }
